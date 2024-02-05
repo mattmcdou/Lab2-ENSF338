@@ -57,7 +57,7 @@ for i in range(35):
     optimized_results.append(time_taken)
 
 plt.plot(range(35), unoptimized_results)
-plt.xlabel("run")
+plt.xlabel("n")
 plt.ylabel("time")
 plt.ylim(0, 0.8)
 plt.savefig("ex1.6.1.jpg")
@@ -65,7 +65,7 @@ plt.close()
 
 plt.plot(range(35), optimized_results)
 plt.ylabel("time")
-plt.xlabel("run")
+plt.xlabel("n")
 plt.ylim(0, 0.8)
 plt.savefig("eg1.6.2.jpg")
 plt.close()
